@@ -1,5 +1,5 @@
 def addDigits(n):
-    if len(str(n))==1:
+    if n // 10 == 0:
         return n
     else:
         sum=0

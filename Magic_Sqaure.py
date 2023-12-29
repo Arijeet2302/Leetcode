@@ -38,3 +38,5 @@ for i in range(len(res)):
     print()
 
 print("Magic Sum for",n, "is :",magicSum)
+
+# magicSum(n) = n * ((n*n + 1) // 2)

@@ -1,5 +1,7 @@
-matrix = [[10, 10, 10, 10, 10], [10, 10, 10, 10, 10], [10, 10, 10, 10, 10]]
-row_max = len(matrix)
+#will not work only if all the values of the matrix are same
+
+matrix = [[10, 10, 10, 2, 10], [10, 10, 10, 9, 10], [10, 10, 10, 1, 10]]
+row_max = len(matrix) 
 col_max = len(matrix[0])
 
 
@@ -17,4 +19,4 @@ for row in range(row_max):
         print(f"Saddle Point number {max_row} found at row = {row} and col = {max_row_idx}")
 
     if min_row == max_column :
-        print(f"Saddle Point number {min_row} found at row = {min_row_idx} and col = {row}")
+        print(f"Saddle Point number {min_row} found at row = {row} and col = {min_row_idx}")

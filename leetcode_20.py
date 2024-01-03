@@ -1,5 +1,5 @@
 def soln(s): #ValidParenthesis
-    arr=[0]
+    arr=[0]*len(s)
     top=-1
     for i in s:
         if i == '(' or i == '{' or i == '[':
